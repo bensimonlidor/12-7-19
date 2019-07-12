@@ -9,7 +9,7 @@ public class Program
 		
 		for(int i=0; i < x; i++)
 		{
-			Console.Write("\t");
+			Console.Write("\t");                          //// tab - כמו  המקש במחשב מקנה רווח 
 			
 			for( int j=0; j < i; j++)
 			{
