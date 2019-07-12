@@ -1,0 +1,15 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int num;
+		
+		if (int.TryParse(Console.ReadLine(), out num)== false)
+			Console.WriteLine("this is not a number");
+		
+		Console.WriteLine(num);
+		
+	}
+}
